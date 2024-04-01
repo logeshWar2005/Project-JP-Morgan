@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.screen {
+  background-color: #16221b;
+  width: 100vw;
+  height: 100vh;
+}
+
+.screen {
+  display: flex;
+  gap: 9vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 5%;
+}
+
+.box {
+  width: 33.33%;
+  height: 33.33%;
+  border-radius: 2%;
+}
+
+.btn {
+  color: #20f97ec9;
+  border-radius: 9px;
+  height: 5vh;
+  width: 10vw;
+  
+}
+
+.message{
+  display: block;
+  font-size: 5vh;
+}
+
